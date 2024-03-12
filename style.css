@@ -1,0 +1,88 @@
+.stApp > header {
+    background-color: transparent;
+}
+
+.stApp {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: #003060;
+    animation: gradient 15s ease infinite;
+    background-size: 200% 200%;
+    background-attachment: fixed;
+}
+
+.app_title {
+    box-shadow: 1px 1px 1px 1px #000000;
+    font-family: "Doppio One", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    background-color: #055C9D;
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    margin: 10px;
+}
+
+.app_sub_title {
+    box-shadow: 1px 1px 1px 1px #000000;
+    font-family: "Doppio One", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: #055C9D;
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    margin: -10px;
+}
+
+/*FMEA Web App Containers*/
+.st-emotion-cache-6i8naw {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+    padding: calc(1em - 1px);
+    background-color: black;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
+
+/*APQP PDCA Container*/
+.st-emotion-cache-1ssyx9w .glideDataEditor {
+    height: 100%;
+    min-width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px 1px #000000;
+    box-shadow: 1px 1px 1px 1px #000000;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Sub Balancing Containers*/
+.st-emotion-cache-1ssyx9w .glideDataEditor {
+    height: 100%;
+    min-width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px 1px #000000;
+    margin: auto; /* Horizontal centering */
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+}
+
+/*Tagline*/
+.tagline{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    letter-spacing: -1px;
+    text-align: center;
+    word-spacing: 1.6px;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    margin: -5px;
+}
