@@ -3,9 +3,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import altair as alt
-from datetime import datetime, timedelta, date
-from io import BytesIO
 
 # Streamlit Configurations
 st.set_page_config(page_title="ME Dept Apps", layout="wide")
